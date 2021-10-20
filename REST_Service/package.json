@@ -1,0 +1,21 @@
+{
+  "name": "study_plan_service",
+  "version": "1.0.0",
+  "description": "this microservice enable the student to add or modify his study plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
